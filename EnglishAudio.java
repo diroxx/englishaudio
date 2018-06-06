@@ -31,7 +31,7 @@ public class EnglishAudio {
             }
         }
         Files.write(path, fileContent, StandardCharsets.UTF_8);
-        } catch(IOException e) {System.out.println("GameOption.txt file not found.");}
+        } catch(IOException e){}
     }
 
 }
